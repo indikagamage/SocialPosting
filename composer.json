@@ -1,0 +1,27 @@
+{
+    "name": "indikagamage/Socialposter",
+    "description": "Socialposter is an application that lets users schedule and post to Social Media.",
+    "license": "MIT",
+    "keywords": ["Social Poster"],
+    "authors": [
+        {
+            "name": "Indika Gamage",
+            "email": "indika@indikgamage.com"
+        }
+    ],
+   "require" : {
+   	 "facebook/php-sdk-v4" : "~5.0",
+        "artox-lab/json-config": "^1.3",
+        "bramus/router": "^1.1",
+        "monolog/monolog": "^1.19",
+        "twig/twig": "~1.2"
+  },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indikagamage\\Socialposter\\": "src"
+        }
+    }
+}
